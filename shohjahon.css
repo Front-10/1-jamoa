@@ -1,0 +1,74 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+.warpper {
+    width: 1347.4px;
+    background-image: url(img/Pause2.png);
+    background-repeat: no-repeat;
+    background-position: 1090px 620px;
+}
+/* ****************************************** TECHNOLOGY START ********************************************************** */
+.container {
+    width: 1100px;
+    margin: 0 auto;
+    height: 1000px;
+}
+.technology {
+    padding-top: 90px;
+    background-image: url(img/PAUSE.png);
+    background-repeat: no-repeat;
+    background-position: 460px 10px;
+}
+.technology__items {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.technology__items h6 {
+    color: #0057FF;
+text-align: center;
+font-family: 'Oswald', sans-serif;
+font-size: 11px;
+font-style: normal;
+font-weight: 400;
+line-height: 22px; /* 200% */
+letter-spacing: 0.5px;
+text-transform: uppercase;
+}
+
+.technology__items h1 {
+    margin: 0;
+    color: #000;
+text-align: center;
+font-family: Oswald;
+font-size: 40px;
+font-style: normal;
+font-weight: 400;
+line-height: 48px; /* 120% */
+letter-spacing: 1px;
+text-transform: uppercase;
+}
+.technology_items_p {
+    margin-top: 39px;
+    color: #000;
+text-align: center;
+font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px; /* 162.5% */
+width: 693px;
+}
+.end_p {
+    color: #000;
+text-align: center;
+font-family: Oswald;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px; /* 185.714% */
+text-transform: uppercase;
+}
+/* ****************************************** TECHNOLOGY ****************************************************** */
