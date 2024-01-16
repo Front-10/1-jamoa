@@ -1,0 +1,124 @@
+@import url(fonts.css);
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.wrapper {
+    width: 1347.4px;
+    margin: 120px ;
+}
+.container {
+
+
+}
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1200px;
+    height: 462px;
+
+}
+.main__semantika {
+    width: 600px;
+    height: 442px;
+    top: 20px;
+    padding: 0px, 100px, 0px, 0px;
+    
+
+    display: inline-flex;
+    padding-right: 100px;
+    flex-direction: column;
+    align-items: flex-start;
+
+    gap: 39px;
+}
+.main__1 {
+    width: 427px;
+    color: #000;
+font-family: 'Oswald';
+font-size: 19px;
+font-style: normal;
+font-weight: 400;
+line-height: 40px; /* 117.857% */
+text-transform: uppercase;
+margin-bottom: 20px;
+}
+.main__2 {
+    display: flex;
+    justify-content: space-between;
+    width: 484px;
+    color: #000;
+    font-family:  'Roboto';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
+    gap: 29px;
+}
+.tugma__01{
+    width: 176px;
+height: 52px;
+flex-shrink: 0;
+border-radius: 30px;
+background: #FFA332;
+color: white;
+cursor: pointer;
+border: none;
+text-transform: uppercase;
+
+
+}
+/* .girl__big {
+    display: flex;
+    position: absolute;
+    margin-top: 150px;
+} */
+
+.katta__roq {
+    color: #000;
+    font-family: 'Oswald';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; /* 155.556% */
+    text-transform: uppercase;
+}
+.big__img {
+    display: inline-block;
+}
+.rasmga__joy {
+    background: url(img/qizcha__2.png), lightgray 50% / contain no-repeat;
+    background-color: white;
+    width: 700px;
+height: 750px;
+flex-shrink: 0;
+margin-top: 50px;
+
+}
+.kichik__rasmga {
+    background: url(img/qizcha_1.png), lightgray 50% / contain no-repeat;
+    background-color: white;
+    width: 80px;
+height: 80px;
+}
+.items__1 {
+    display: flex;
+    gap: 20px;
+}
+.stars {
+    margin-top: 10px;
+}
+.orasidagi__joy {
+    display: flex;
+    gap: 40px;
+    flex-direction: column;
+}
+.tugma__01:hover{
+    background-color: #fff;
+    color: black;
+    transition: all 0.2s ease-in-out;
+    border: 1px solid black;
+}
