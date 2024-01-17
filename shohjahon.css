@@ -1,74 +1,233 @@
 * {
-    padding: 0;
-    margin: 0;
+  padding: 0;
+  margin: 0;
 }
 .warpper {
-    width: 1347.4px;
-    background-image: url(img/Pause2.png);
-    background-repeat: no-repeat;
-    background-position: 1090px 620px;
+  width: 1347.4px;
+  background-image: url(img/Pause2.png);
+  background-repeat: no-repeat;
+  background-position: 1090px 620px;
 }
-/* ****************************************** TECHNOLOGY START ********************************************************** */
 .container {
     width: 1100px;
     margin: 0 auto;
-    height: 1000px;
+  }
+.header {
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
 }
+ul {
+  display: flex;
+  gap: 40px;
+  margin-left: 60px;
+}
+li {
+  list-style-type: none;
+}
+.nav__link {
+  text-decoration: none;
+  color: #000;
+
+  font-family: Oswald;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; /* 185.714% */
+  text-transform: uppercas;
+}
+.button {
+  margin-left: 370px;
+  color: #fff;
+  text-align: center;
+  font-family: Oswald;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 171.429% */
+  text-transform: uppercase;
+  border-radius: 30px;
+  background: #0057ff;
+  width: 193px;
+  height: 52px;
+  border: none;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+}
+.button:hover {
+  color: #0057ff;
+  background: #fff;
+  border: 1px solid #0057ff;
+}
+/* ****************************************** HEADER END **************************************************************** */
+/* ****************************************** MAIN START ********************************************************************** */
+.main {
+  margin-top: 81px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(shohjahon/IMAGE2.png);
+  background-repeat: no-repeat;
+  background-position: 600px 220px;
+}
+.main__semantika {
+  display: inline-flex;
+  padding-right: 100px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 39px;
+}
+.main__1 {
+  color: #000;
+  font-family: "Oswald", sans-serif;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 66px; /* 117.857% */
+  text-transform: uppercase;
+}
+.main__2 {
+  display: flex;
+  justify-content: space-between;
+  width: 484px;
+  color: #000;
+  font-family: "Roboto";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; /* 162.5% */
+  gap: 29px;
+}
+.tugma__01 {
+  color: #fff;
+  text-align: center;
+  font-family: Oswald;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 171.429% */
+  text-transform: uppercase;
+  width: 176px;
+  height: 52px;
+  border-radius: 30px;
+  background: #ffa332;
+  cursor: pointer;
+  border: none;
+  text-transform: uppercase;
+  transition: all 0.3s ease-in-out;
+}
+
+.katta__roq {
+  color: #000;
+  font-family: "Oswald", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px; /* 155.556% */
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.items__1 {
+  display: flex;
+  gap: 20px;
+}
+.stars {
+  margin-top: 10px;
+}
+.main_img {
+  width: 510px;
+  height: 700px;
+}
+
+.orasidagi__joy {
+  display: flex;
+  gap: 40px;
+  flex-direction: column;
+}
+.tugma__01:hover {
+  background-color: #fff;
+  color: #ffa332;
+  transition: all 0.2s ease-in-out;
+  border: 1px solid #ffa332;
+}
+/* *********************************************** MAIN END ************************************************************* */
+/* ****************************************** TECHNOLOGY START ********************************************************** */
 .technology {
-    padding-top: 90px;
-    background-image: url(img/PAUSE.png);
-    background-repeat: no-repeat;
-    background-position: 460px 10px;
+  padding-top: 90px;
+  background-image: url(shohjahon/PAUSE.png);
+  background-repeat: no-repeat;
+  background-position: 460px 10px;
+  margin-bottom: 100px;
 }
 .technology__items {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 .technology__items h6 {
-    color: #0057FF;
-text-align: center;
-font-family: 'Oswald', sans-serif;
-font-size: 11px;
-font-style: normal;
-font-weight: 400;
-line-height: 22px; /* 200% */
-letter-spacing: 0.5px;
-text-transform: uppercase;
+  color: #0057ff;
+  text-align: center;
+  font-family: "Oswald", sans-serif;
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px; /* 200% */
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
 }
 
 .technology__items h1 {
-    margin: 0;
-    color: #000;
-text-align: center;
-font-family: Oswald;
-font-size: 40px;
-font-style: normal;
-font-weight: 400;
-line-height: 48px; /* 120% */
-letter-spacing: 1px;
-text-transform: uppercase;
+  margin: 0;
+  color: #000;
+  text-align: center;
+  font-family: "Oswald", sans-serif;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 48px; /* 120% */
+  letter-spacing: 1px;
+  text-transform: uppercase;
 }
 .technology_items_p {
-    margin-top: 39px;
-    color: #000;
-text-align: center;
-font-family: Roboto;
-font-size: 16px;
-font-style: normal;
-font-weight: 400;
-line-height: 26px; /* 162.5% */
-width: 693px;
+  margin-top: 39px;
+  color: #000;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; /* 162.5% */
+  width: 693px;
 }
 .end_p {
-    color: #000;
-text-align: center;
-font-family: Oswald;
-font-size: 14px;
-font-style: normal;
-font-weight: 400;
-line-height: 26px; /* 185.714% */
-text-transform: uppercase;
+  color: #000;
+  text-align: center;
+  font-family: "Oswald", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; /* 185.714% */
+  text-transform: uppercase;
+}
+.img_pause {
+    margin-top: -1130px;
+    margin-left: 1060px;
+    background-image: url(shohjahon/IMAGE3.png);
+    background-repeat: no-repeat;
+    background-size: 250px;
+    position: absolute;
+    width: 300px;
+height: 300px;
+}
+
+.pause2 {
+    margin-top: -205px;
+    width: 1300px;
+height: 200px;
+    background-image: url(shohjahon/Pause2.png);
+    background-repeat: no-repeat;
+    background-position: 1095px 0;
 }
 /* ****************************************** TECHNOLOGY END ****************************************************** */
